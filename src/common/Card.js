@@ -219,9 +219,8 @@ class Card {
         <title id="titleId">${this.a11yTitle}</title>
         <desc id="descId">${this.a11yDesc}</desc>
         <style>
-          @import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&display=swap");
           .header {
-            font: 600 18px 'Cinzel', 'Segoe UI', Ubuntu, Sans-Serif;
+            font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
             fill: ${this.colors.titleColor};
             animation: fadeInAnimation 0.8s ease-in-out forwards;
           }
